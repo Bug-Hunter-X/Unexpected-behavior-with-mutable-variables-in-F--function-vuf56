@@ -1,0 +1,2 @@
+# F# Mutable Variable Bug
+This example demonstrates a common issue when working with mutable variables in F# functions.  The `swap` function intends to swap the values of `x` and `y`, but it only modifies the local copies within its scope.  The solution shows how to properly swap variables using tuples or pattern matching to create immutability.
